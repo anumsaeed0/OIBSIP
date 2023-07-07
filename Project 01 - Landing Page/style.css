@@ -35,19 +35,29 @@ header {
     padding: 0.4em;
     font-size: xx-large;
 }
-  
+
 .banner--title a {
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: black;
     text-decoration: none;
 }
-
 .banner--title a:hover {
     color: #f4c79b;
-    text-decoration: underline;
+    text-decoration: none;
     text-shadow: none;
 }
-
+.banner--title span::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f4c79b;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.banner--title span:hover:after{
+    width: 100%;
+}
 .banner--title {
     position: absolute;
     top: 0%;
@@ -118,7 +128,6 @@ header {
     margin: 0.5m;
     margin-top: 1em;
     overflow: auto;
-
 }
 
 .intro-main .img-main{
@@ -136,6 +145,11 @@ header {
 .img-bottom-p{
     width: 100%;
     border-radius: 20px;
+}
+
+.intro-main:hover {
+    background: #fac189;
+    transition: 0.8s;
 }
 
 /*Footer Section*/
