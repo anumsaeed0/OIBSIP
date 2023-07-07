@@ -1,7 +1,7 @@
 # Project 01
 Landing Page
 
-# Prism Vision Blogs
+## Prism Vision Blogs
 
 This HTML and CSS project is a landing page focused on nature photography and blogging. The landing page features a visually appealing design that highlights the beauty of nature through stunning photographs and informative content.
 
