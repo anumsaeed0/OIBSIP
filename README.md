@@ -1,2 +1,2 @@
-# Web Development and Designing Internship 
+# Web Development and Designing Internship - Oasis InfoByte
 
