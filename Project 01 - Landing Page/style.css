@@ -1,52 +1,57 @@
-body{
+body {
     /*background-color: #000;*/
     background-image: url("images/bg-wall-0.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-}
-/*Header Image Background and Text*/
-header {
-    position: relative;
-}
+  }
   
-.banner {
+  /*Header Image Background and Text*/
+  header {
+    position: relative;
+  }
+  
+  .banner {
     display: flexbox;
     width: 100%;
-}
-
-.banner--title h1,
-.banner--title h2 {
+  }
+  
+  .banner--title h1,
+  .banner--title h2 {
     margin: 0;
     font-family: 'Dancing Script', cursive;
-}
-.banner--title h1{
-    font-size: xxx-large;
-}
-.banner--title h2{
-    font-size: 2.4em;
-}
+  }
   
-.banner--title span {
+  .banner--title h1 {
+    font-size: xxx-large;
+  }
+  
+  .banner--title h2 {
+    font-size: 2.4em;
+  }
+  
+  .banner--title span {
     background-color: #fac28989;
     border-radius: 20px;
     display: block;
     margin-top: 20px;
     padding: 0.4em;
     font-size: xx-large;
-}
-
-.banner--title a {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .banner--title a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
     text-decoration: none;
-}
-.banner--title a:hover {
+  }
+  
+  .banner--title a:hover {
     color: #f4c79b;
     text-decoration: none;
     text-shadow: none;
-}
-.banner--title span::after{
+  }
+  
+  .banner--title span::after {
     content: '';
     width: 0%;
     height: 2px;
@@ -54,11 +59,13 @@ header {
     display: block;
     margin: auto;
     transition: 0.5s;
-}
-.banner--title span:hover:after{
+  }
+  
+  .banner--title span:hover:after {
     width: 100%;
-}
-.banner--title {
+  }
+  
+  .banner--title {
     position: absolute;
     top: 0%;
     left: 0%;
@@ -68,55 +75,67 @@ header {
     color: #b99981;
     text-align: center;
     width: 100%;
-    height: 100%; /* Height equal to the image */
+    height: 100%;
+    /* Height equal to the image */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; /* Added alignment */
-}
-/*Navigation Bar*/
-.banner-nav-bar {
+    align-items: center;
+    /* Added alignment */
+  }
+  
+  /*Navigation Bar*/
+  .banner-nav-bar {
     position: absolute;
     top: 0;
     width: 100%;
     z-index: 1;
-}
-
-.banner-nav-bar nav {
+  }
+  
+  .banner-nav-bar nav {
     background-color: #b9998162;
     padding: 0.1em 0;
     margin: 0;
-}
-
-.banner-nav-bar{
+  }
+  
+  .banner-nav-bar {
     text-align: right;
-}
-.banner-nav-bar ul li{
+  }
+  
+  .banner-nav-bar ul li {
     display: inline-block;
     padding: 0.4em;
     margin: 0;
-
-}
-.banner-nav-bar ul li a{
+  
+  }
+  
+  .banner-nav-bar ul li a {
     color: #f4c79b;
-    padding-right: 0.5em; 
+    padding-right: 0.5em;
     text-decoration: none;
     font-size: large;
     display: block;
     margin: 0;
-}
-.banner-nav-bar li a:hover{
-    color:black;
+  }
+  
+  .banner-nav-bar li a:hover {
+    color: black;
     text-decoration: underline;
-}
-
-/*Main Section*/
-.intro-main h2{
-    font-family: 'Anton', sans-serif;    
+  }
+  
+  /*Main Section*/
+  .intro-main h2 {
+    font-family: 'Anton', sans-serif;
     font-size: 2.4em;
     margin-top: 0.3em;
-}
-.intro-main{
+  }
+  
+  .listed-col-main .intro-main h2{
+    text-align: center;
+  
+  }
+  
+  .intro-main {
     background-color: #fac18989;
     border: none;
     border-radius: 20px;
@@ -128,40 +147,44 @@ header {
     margin: 0.3em;
     margin-top: 1em;
     overflow: auto;
-}
-.row .intro-main{
+  }
+  
+  .row .intro-main {
     text-align: center;
-}
-.intro-main .img-main{
+  }
+  
+  .intro-main .img-main {
     margin-top: 0.3em;
     width: 100%;
     border: #b99981;
     border-radius: 20px;
-}
-
-.intro-main p{
+  }
+  
+  .intro-main p {
     font-size: larger;
     margin-bottom: 0.6em;
-}
-.img-bottom-p{
+  }
+  
+  .img-bottom-p {
     width: 100%;
     border-radius: 20px;
-}
-
-.intro-main:hover {
+  }
+  
+  .intro-main:hover {
     background: #fac189;
     transition: 0.8s;
-}
-
-/*Footer Section*/
-.footer{
+  }
+  
+  /*Footer Section*/
+  .footer {
     margin-top: 0.9em;
-    border-top: 1pt solid #fac289 ;
-}
-.footer p{
+    border-top: 1pt solid #fac289;
+  }
+  
+  .footer p {
     font-size: medium;
     color: #f4c79b91;
     text-align: center;
     padding: 0.13em;
     margin: 0.13em;
-}
+  }
