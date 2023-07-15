@@ -179,12 +179,45 @@ body {
   .footer {
     margin-top: 0.9em;
     border-top: 1pt solid #fac289;
+    background-color: rgba(0, 0, 0, 0.717);
+    color: white;
   }
   
   .footer p {
     font-size: medium;
-    color: #f4c79b91;
+    color: #897969;
     text-align: center;
     padding: 0.13em;
     margin: 0.13em;
+  }
+  .comment-box{
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.82);
+  }
+  p.about-us-p{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+  .footer-container{
+    padding: 2em;
+  }
+  .adr-num-em{
+    color: #8d7360;
+  }
+  .color-media a{
+    color: #8d7360;
+  }
+  .color-media a:hover{
+    color: #605044;
+  }
+  .footer h5 {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5em;
+    margin-top: 0.3em;
+  }
+  .comment-box:hover{
+    background-color: rgba(255, 255, 255);
   }
