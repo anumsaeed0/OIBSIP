@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 05px;
+  font-family: 'montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background: linear-gradient(115deg, #167863, #08465e);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  width: 100%;
+  max-width: 600px;
+  background: linear-gradient(135deg, #e6e6e6, #ffffff);
+  padding: 20px;
+  border: 2pt solid #08465e;
+  border-radius: 25px;
+  box-shadow: 2pt 2pt 2pt rgba(0, 0, 0, 0.5);
+  
+  
+  }
+
+input[type="number"] {
+  width: 164.5%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: content-box;
+}
+
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input::placeholder {
+  color: #999;
+}
+
+select {
+  width: 160%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-sizing: content-box;
+}
+
+#convertedTemperatureValue {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0c688a;
+  
+}
+
+#convertedTemperatureUnit {
+  font-size: 18px;
+}
+@media (max-width: 768px) {
+  input[type="number"] {
+  width: 111%;
+  box-sizing: border-box;
+  }
+  select{
+    width: 100%;
+    box-sizing: border-box;
+  }
+    
+}
